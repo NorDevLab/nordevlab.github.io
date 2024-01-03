@@ -213,7 +213,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.home-text13 {
+.home-text12 {
   color: rgba(149, 149, 149, 1);
   height: auto;
   font-size: 80px;
@@ -225,7 +225,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.home-text15 {
+.home-text13 {
   color: rgba(0, 67, 250, 1);
   height: auto;
   font-size: 110px;
@@ -284,5 +284,32 @@
   .home-mobile-menu {
     width: 100%;
     padding: 16px;
+  }
+  .home-container2 {
+    width: 100%;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .home-text11 {
+    color: rgb(149, 149, 149);
+    font-size: 80px;
+    align-self: center;
+    font-family: GangsterGrotesk;
+    font-weight: 700;
+    line-height: 100%;
+    text-decoration: none;
+  }
+  .home-text12 {
+    color: rgb(149, 149, 149);
+    font-size: 70px;
+    text-align: center;
+    font-family: GangsterGrotesk;
+    font-weight: 700;
+    line-height: 100%;
+    text-decoration: none;
+  }
+  .home-text13 {
+    font-size: 80px;
+    line-height: 100%;
   }
 }
