@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "GangsterGrotesk";
+  font-style: normal;
+  font-format: opentype;
+  font-weight: 400;
+  src: url("public/fonts/gangstergrotesk-regular.otf") ;
+}
 :root {
   --dl-color-gray-500: #595959;
   --dl-color-gray-700: #999999;
@@ -7,15 +14,15 @@
   --dl-color-danger-300: #A22020;
   --dl-color-danger-500: #BF2626;
   --dl-color-danger-700: #E14747;
-  --dl-color-gray-black: #000000;
+  --dl-color-gray-black: #e9dcdcff;
   --dl-color-gray-white: #FFFFFF;
   --dl-size-size-medium: 96px;
   --dl-size-size-xlarge: 192px;
   --dl-size-size-xsmall: 16px;
   --dl-space-space-unit: 16px;
-  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-100: #d7dbe2ff;
   --dl-color-primary-300: #0074F0;
-  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-500: #96a2a9ff;
   --dl-color-primary-700: #85DCFF;
   --dl-color-success-300: #199033;
   --dl-color-success-500: #32A94C;
@@ -74,7 +81,7 @@
 }
 .teleport-show {
   display: flex !important;
-  transform: none !important;
+  transform: translateX(0%) !important;
 }
 .back {
   background: radial-gradient(circle at left bottom, rgb(5, 5, 5) 30.00%,rgb(5, 5, 5) 51.00%,rgb(21, 18, 153) 100.00%,rgb(19, 80, 88) 100.00%);
