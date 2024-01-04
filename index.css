@@ -263,23 +263,35 @@
 .home-text13 {
   color: var(--dl-color-gray-white);
   font-size: 16px;
+  transition: 0.3s;
   font-family: Inter;
   font-weight: 400;
   line-height: 22px;
+}
+.home-text13:hover {
+  border-bottom: 1px solid Blue;
 }
 .home-text15 {
   color: rgba(255, 255, 255, 1);
   font-size: 16px;
+  transition: 0.3s;
   font-family: Inter;
   font-weight: 500;
   line-height: 22px;
 }
+.home-text15:hover {
+  border-bottom: 1px solid Blue;
+}
 .home-text17 {
   color: rgba(255, 255, 255, 1);
   font-size: 16px;
+  transition: 0.3s;
   font-family: Inter;
   font-weight: 400;
   line-height: 22px;
+}
+.home-text17:hover {
+  border-bottom: 1px solid Blue;
 }
 .home-container5 {
   display: contents;
