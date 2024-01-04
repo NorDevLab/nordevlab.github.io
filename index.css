@@ -101,10 +101,13 @@
   justify-content: flex-end;
 }
 .home-close-menu {
-  width: 87px;
-  height: 90px;
+  width: 61px;
+  height: 62px;
   display: flex;
+  padding: 0px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
   align-items: center;
+  margin-right: var(--dl-space-space-oneandhalfunits);
   justify-content: center;
 }
 .home-icon02 {
@@ -112,7 +115,11 @@
   width: 100%;
   height: 100%;
   margin: 0px;
+  transition: 0.3s;
   margin-bottom: 0px;
+}
+.home-icon02:hover {
+  background-color: #0043fa;
 }
 .home-links1 {
   flex: 0 0 auto;
@@ -229,7 +236,7 @@
   text-decoration: none;
 }
 .home-text13 {
-  color: rgba(0, 67, 250, 1);
+  color: rgb(0, 67, 250);
   height: auto;
   font-size: 110px;
   font-style: Bold;
