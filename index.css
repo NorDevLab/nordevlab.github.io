@@ -100,20 +100,19 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: flex-end;
 }
-.home-icon02 {
-  fill: var(--dl-color-gray-white);
-  width: 87px;
-  height: 88px;
-  padding: 0px;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-}
 .home-close-menu {
+  width: 87px;
+  height: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.home-icon02 {
+  fill: var(--dl-color-gray-white);
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  margin-bottom: 0px;
 }
 .home-links1 {
   flex: 0 0 auto;
