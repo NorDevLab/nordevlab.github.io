@@ -248,7 +248,40 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.home-container4 {
+.home-container3 {
+  top: 388px;
+  flex: 0 0 auto;
+  left: 594px;
+  width: 593px;
+  height: 100px;
+  display: flex;
+  position: fixed;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: space-around;
+}
+.home-text13 {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 22px;
+}
+.home-text15 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 22px;
+}
+.home-text17 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 22px;
+}
+.home-container5 {
   display: contents;
 }
 @media(max-width: 1441px) {
