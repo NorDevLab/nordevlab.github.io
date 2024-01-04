@@ -70,6 +70,10 @@
   fill: var(--dl-color-gray-white);
   width: var(--dl-size-size-small);
   height: var(--dl-size-size-small);
+  transition: 0.3s;
+}
+.home-icon:hover {
+  cursor: pointer;
 }
 .home-mobile-menu {
   top: 0px;
