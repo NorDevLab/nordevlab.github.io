@@ -242,22 +242,13 @@
   text-decoration: none;
 }
 .about-container2 {
-  flex: 0 0 auto;
-  width: 200px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.about-container3 {
   width: 100%;
   height: 528px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.about-container4 {
+.about-container3 {
   flex: 1;
   width: 634px;
   height: 458px;
@@ -293,7 +284,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.about-container5 {
+.about-container4 {
   flex: 1;
   width: 526px;
   height: 454px;
