@@ -21,6 +21,7 @@
 .about-navbar-interactive {
   width: 100%;
   display: flex;
+  align-self: center;
   align-items: flex-start;
   padding-top: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-threeunits);
@@ -61,14 +62,6 @@
 .about-login {
   border-width: 0px;
   margin-right: var(--dl-space-space-twounits);
-}
-.about-container2 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
 }
 .about-burger-menu {
   display: flex;
@@ -142,6 +135,12 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.about-navlink {
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-small);
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .about-text05 {
   width: var(--dl-size-size-medium);
   height: var(--dl-size-size-small);
@@ -158,11 +157,6 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 .about-text08 {
-  width: var(--dl-size-size-medium);
-  height: var(--dl-size-size-small);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.about-text09 {
   width: var(--dl-size-size-medium);
   height: var(--dl-size-size-small);
   margin-bottom: var(--dl-space-space-unit);
@@ -196,7 +190,7 @@
   width: var(--dl-size-size-small);
   height: var(--dl-size-size-small);
 }
-.about-text10 {
+.about-text09 {
   color: rgb(255, 255, 255);
   height: auto;
   font-size: 30px;
@@ -210,7 +204,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.about-text11 {
+.about-text10 {
   color: rgb(255, 255, 255);
   height: auto;
   font-size: 18px;
@@ -230,7 +224,7 @@
   padding-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.about-text12 {
+.about-text11 {
   color: rgb(255, 255, 255);
   width: 393px;
   height: auto;
@@ -246,7 +240,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.about-container3 {
+.about-container2 {
   flex: 0 0 auto;
   width: 200px;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -255,14 +249,14 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.about-container4 {
+.about-container3 {
   width: 100%;
   height: 528px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.about-container5 {
+.about-container4 {
   flex: 1;
   width: 634px;
   height: 458px;
@@ -271,7 +265,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.about-text13 {
+.about-text12 {
   color: var(--dl-color-black-9);
   width: 393px;
   height: auto;
@@ -284,7 +278,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.about-text15 {
+.about-text14 {
   color: rgba(0, 67, 250, 1);
   width: 393px;
   height: auto;
@@ -298,7 +292,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.about-container6 {
+.about-container5 {
   flex: 1;
   width: 526px;
   height: 454px;
@@ -307,6 +301,19 @@
   margin-right: var(--dl-space-space-sixunits);
   flex-direction: column;
   justify-content: space-around;
+}
+.about-text16 {
+  color: var(--dl-color-black-85);
+  width: auto;
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 22px;
+  font-stretch: normal;
+  text-decoration: none;
 }
 .about-text17 {
   color: var(--dl-color-black-85);
@@ -335,19 +342,6 @@
   text-decoration: none;
 }
 .about-text19 {
-  color: var(--dl-color-black-85);
-  width: auto;
-  height: auto;
-  font-size: 16px;
-  font-style: Regular;
-  text-align: left;
-  font-family: "Inter";
-  font-weight: 400;
-  line-height: 22px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.about-text20 {
   color: var(--dl-color-black-9);
   height: auto;
   font-size: 18px;
@@ -384,7 +378,11 @@
     align-items: center;
     justify-content: center;
   }
+  .about-navlink {
+    margin-bottom: var(--dl-space-space-unit);
+  }
   .about-text05 {
+    margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
   .about-text06 {
@@ -396,10 +394,6 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .about-text08 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .about-text09 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
