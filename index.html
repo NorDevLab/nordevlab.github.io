@@ -114,7 +114,7 @@
               <span class="home-text11">CONTACT US</span>
               <span class="home-text12">SERVICES</span>
             </div>
-            <div class="home-container4">
+            <div id="text_to_hide" class="home-container4">
               <span class="home-text13"><span>DO</span></span>
               <span class="home-text15"><span>WORKING</span></span>
               <span class="home-text17"><span>EXPERIENCE</span></span>
@@ -125,13 +125,16 @@
               <script>
                 var element = document.getElementById('tblock');
                 var element1= document.getElementById('logo_text');
+                var tth= document.getElementById('text_to_hide');
                 document.getElementById('nb_icon').onclick = function() {
                   element.style.transform = 'translateX(242px)';
                   element1.style.transform = 'translateX(242px)';
+                  tth.style.transform = 'scale(0)'
                 };
                 document.getElementById('nb_icon_close').onclick = function() {
                   element.style.transform = 'translateX(0px)';
                   element1.style.transform = 'translateX(0px)';
+                  tth.style.transform = 'scale(100)'
                 };
               </script>
             </div>
