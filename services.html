@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Services</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/styles/sidebar.css">
+    <link rel="stylesheet" href="src/styles/cookie-banner.css">
+    <link rel="stylesheet" href="src/styles/services.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="layout">
+    <aside class="sidebar" id="sidebar">
+        <div class="close">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+			c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+			c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+			L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+			c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+			c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+			c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+	</g>
+</g>
+</svg>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li class="navigation-item">
+                    <a href="services.html" class="dropdown-btn">Services
+                       <!-- <svg class="dropdown-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            &lt;!&ndash;!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.&ndash;&gt;
+                            <path fill="#ffffff"
+                                  d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"/>
+                        </svg>-->
+                    </a>
+                  <!--  <div class="dropdown-container">
+                        <a href="services.html" class="sidebar-link" data-content="do-content">DO</a>
+                        <a href="services.html" class="sidebar-link" data-content="working-content">WORKING</a>
+                        <a href="services.html" class="sidebar-link" data-content="experience-content">EXPERIENCE</a>
+                    </div>-->
+                </li>
+                <li class="navigation-item">
+                    <a href="contacts.html">
+                        <span>Contacts</span>
+                    </a>
+                </li>
+                <li class="navigation-item">
+                    <a href="about.html">
+                        <span>About us</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <div class="content">
+        <header class="header">
+            <div class="burger" id="burger">
+                <svg width="25" height="25" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line y1="1" x2="21" y2="1" stroke="black" stroke-width="2"/>
+                    <line y1="6" x2="21" y2="6" stroke="black" stroke-width="2"/>
+                    <line y1="11" x2="21" y2="11" stroke="black" stroke-width="2"/>
+                </svg>
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo-black.png" alt="logo">
+                </a>
+            </div>
+        </header>
+
+        <section class="services">
+            <div class="container">
+                <h1>SERVICES</h1>
+                <nav class="services-navs">
+                    <a href="#" class="nav-item active" id="nav-do" data-target=".do-page">
+                        <button>
+                            <span>Do</span>
+                        </button>
+                    </a>
+                    <a href="#" class="nav-item" id="nav-working" data-target=".working-page">
+                        <button>Working</button>
+                    </a>
+                    <a href="#" class="nav-item" id="nav-experience" data-target=".experience-page">
+                        <button>Experience</button>
+                    </a>
+                </nav>
+
+                <section class="do-page page" id="do-content">
+                    <div class="products">
+                        <h2 class="services-heading">Products</h2>
+                        <div class="services-nav products-nav">
+                            <div class="services-nav-item products-nav-item">
+                                <button class="btn-styled btn-active" id="web">Web</button>
+                            </div>
+                            <div class="services-nav-item products-nav-item">
+                                <button class="btn-styled" id="app">App</button>
+                            </div>
+                            <div class="services-nav-item products-nav-item">
+                                <button class="btn-styled" id="software">Software</button>
+                            </div>
+                        </div>
+                        <div class="web-product-desc services-desc default-desc">
+                            At NDLAB, we offer a comprehensive range of services in website and web application
+                            development. Our team, equipped with extensive experience, excels in creating diverse web
+                            solutions, from ambitious projects to online portals, services, and systems. We blend our
+                            rich expertise with current market trends to develop innovative web solutions that meet the
+                            evolving needs of our clients.
+                        </div>
+                        <div class="app-product-desc services-desc">
+                            Our skilled team at NDLAB develops mobile applications for leading platforms like iOS and
+                            Android. We prioritize usability in our mobile app development, thoroughly researching the
+                            user experience of the target audience before development begins. Whether creating
+                            standalone mobile applications or supplementing existing web apps and software, we ensure
+                            seamless integration through API, enhancing user interaction and functionality.
+                        </div>
+                        <div class="software-product-desc services-desc">
+                            Software development is a core focus at Nordevlab. We position ourselves as a full-cycle
+                            provider, encompassing the development, modernization, implementation, and support of
+                            software solutions. Our integrated approach to client projects involves a thorough analysis
+                            of existing needs and the proposal of optimal solutions. We aim to address our clients'
+                            challenges with efficient and innovative software solutions, tailor-made to their specific
+                            requirements.
+                        </div>
+                    </div>
+                    <div class="use">
+                        <h2 class="services-heading">Use</h2>
+                        <div class="services-nav use-nav">
+                            <div class="services-nav-item use-nav-item">
+                                <button class="btn-styled btn-active" id="design">Design</button>
+                            </div>
+                            <div class="services-nav-item use-nav-item">
+                                <button class="btn-styled" id="fe">Front-end</button>
+                            </div>
+                            <div class="services-nav-item use-nav-item">
+                                <button class="btn-styled" id="be">Back-end</button>
+                            </div>
+                        </div>
+                        <div class="design-use-desc services-desc default-desc">
+                            At NDLAB, we recognize that the visual aspect of a project is a critical element of the
+                            final product. The first impression a user forms about a company or brand is often based on
+                            visual appeal and usability. Our design team focuses on understanding the target audience of
+                            each product, crafting designs that are not only visually stunning but also user-friendly
+                            and highly functional.
+                        </div>
+                        <div class="front-end-use-desc services-desc">
+                            In the modern web landscape, front-end development at NDLAB goes beyond just HTML and CSS.
+                            It involves a complex interplay bet ween front-end and back-end development to create a
+                            cohesive user interface and efficient code collaboration. Our front-end team is tasked with
+                            maintaining a balance between server workload and client-side speed, ensuring seamless and
+                            responsive user experiences without compromising performance.
+                        </div>
+                        <div class="back-end-use-desc services-desc">
+                            The primary mission of our back-end development team at NDLAB is to find functional
+                            solutions to complex tasks. Our back-end specialists leverage their vast experience and
+                            current industry knowledge to select the most effective methods and approaches for
+                            server-side development. We focus on simplifying even the most intricate processes, aligning
+                            with our client's needs to deliver streamlined and efficient back-end solutions.
+                        </div>
+                        <div class="skills">
+                            <h2 class="services-heading">Skills</h2>
+                            <div class="design-skills-desc skills-desc default-desc">
+                                <div class="design-skills-cards">
+                                    <div class="design-skills-card">
+                                        <h2 class="design-skills-heading">Design</h2>
+                                        <div class="design-skills-card-number">
+                                            01
+                                        </div>
+                                        <div class="design-skills-card-info">
+                                            <div class="design-card-desc short-desc">
+                                                <div class="design-card-desc-icon">
+                                                    <img src="assets/images/icons/ui.png" alt="ui logo">
+                                                </div>
+                                                <div class="design-card-desc-title">
+                                                    UI
+                                                </div>
+                                            </div>
+                                            <div class="design-card-desc short-desc">
+                                                <div class="design-card-desc-icon">
+                                                    <img src="assets/images/icons/prototype.png" alt="prototype logo">
+                                                </div>
+                                                <div class="design-card-desc-title">
+                                                    Prototype
+                                                </div>
+                                            </div>
+                                            <div class="design-card-desc short-desc">
+                                                <div class="design-card-desc-icon">
+                                                    <img src="assets/images/icons/brand.png" alt="brand logo">
+                                                </div>
+                                                <div class="design-card-desc-title">
+                                                    Brand
+                                                </div>
+                                            </div>
+                                            <div class="design-card-desc short-desc">
+                                                <div class="design-card-desc-icon">
+                                                    <img src="assets/images/icons/wireframe.png" alt="wireframe logo">
+                                                </div>
+                                                <div class="design-card-desc-title">
+                                                    Wireframe
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="front-end-skills-desc skills-desc services-desc">
+                                <div class="fe-skills-cards">
+                                    <div class="fe-skills-card ">
+                                        <h2 class="fe-skills-heading">Frontend</h2>
+                                        <div class="fe-skills-card-number">
+                                            01
+                                        </div>
+                                        <div class="fe-skills-card-info fe-align">
+                                            <div class="fe-card-desc short-desc">
+                                                <div class="fe-card-desc-icon">
+                                                    <img src="assets/images/icons/sap.png" alt="sap logo">
+                                                </div>
+                                                <div class="fe-card-desc-title">
+                                                    SAP
+                                                </div>
+                                            </div>
+                                            <div class="fe-card-desc short-desc">
+                                                <div class="fe-card-desc-icon">
+                                                    <img src="assets/images/icons/html.png" alt="html logo">
+                                                </div>
+                                                <div class="fe-card-desc-title">
+                                                    HTML 5
+                                                </div>
+                                            </div>
+                                            <div class="fe-card-desc short-desc">
+                                                <div class="fe-card-desc-icon">
+                                                    <img src="assets/images/icons/css.png" alt="css logo">
+                                                </div>
+                                                <div class="fe-card-desc-title">
+                                                    CSS 3
+                                                </div>
+                                            </div>
+                                            <div class="fe-card-desc short-desc">
+                                                <div class="fe-card-desc-icon">
+                                                    <img src="assets/images/icons/javascript.png" alt="javascript logo">
+                                                </div>
+                                                <div class="fe-card-desc-title">
+                                                    Javascript
+                                                </div>
+                                            </div>
+                                            <div class="fe-card-desc short-desc">
+                                                <div class="fe-card-desc-icon">
+                                                    <img src="assets/images/icons/foundation.png" alt="foundation logo">
+                                                </div>
+                                                <div class="fe-card-desc-title">
+                                                    Foundation
+                                                </div>
+                                            </div>
+                                            <div class="fe-card-desc short-desc">
+                                                <div class="fe-card-desc-icon">
+                                                    <img src="assets/images/icons/materialize.png"
+                                                         alt="materialize logo">
+                                                </div>
+                                                <div class="fe-card-desc-title">
+                                                    Materialize
+                                                </div>
+                                            </div>
+                                            <div class="fe-card-desc short-desc">
+                                                <div class="fe-card-desc-icon">
+                                                    <img src="assets/images/icons/ajax.png" alt="ajax logo">
+                                                </div>
+                                                <div class="fe-card-desc-title">
+                                                    Ajax
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="fe-skills-card">
+                                        <h2 class="fe-skills-heading">Javascript</h2>
+                                        <div class="fe-skills-card-number">
+                                            02
+                                        </div>
+                                        <div class="fe-skills-card-info fe-align">
+                                            <div class="fe-card-desc short-desc">
+                                                <div class="fe-card-desc-icon">
+                                                    <img src="assets/images/icons/node.js.png" alt="node.js logo">
+                                                </div>
+                                                <div class="fe-card-desc-title">
+                                                    Node.js
+                                                </div>
+                                            </div>
+                                            <div class="fe-card-desc short-desc">
+                                                <div class="fe-card-desc-icon">
+                                                    <img src="assets/images/icons/react.js.png" alt="react.js logo">
+                                                </div>
+                                                <div class="fe-card-desc-title">
+                                                    React.js
+                                                </div>
+                                            </div>
+                                            <div class="fe-card-desc short-desc">
+                                                <div class="fe-card-desc-icon">
+                                                    <img src="assets/images/icons/jquery.png" alt="jquery logo">
+                                                </div>
+                                                <div class="fe-card-desc-title">
+                                                    JQuery
+                                                </div>
+                                            </div>
+                                            <div class="fe-card-desc short-desc">
+                                                <div class="fe-card-desc-icon">
+                                                    <img src="assets/images/icons/angular.png" alt="angular logo">
+                                                </div>
+                                                <div class="fe-card-desc-title">
+                                                    Angular
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back-end-skills-desc skills-desc services-desc">
+                                <div class="back-end-skills-cards">
+                                    <div class="back-end-skills-card">
+                                        <h2 class="back-end-skills-card-heading">
+                                            Development
+                                        </h2>
+                                        <div class="back-end-skills-card-number">
+                                            01
+                                        </div>
+                                        <div class="back-end-skills-card-info be-end-align">
+                                            <div class="be-card-desc short-desc">
+                                                <div class="be-card-desc-icon">
+                                                    <img class="styled-icon" src="assets/images/icons/php.png"
+                                                         alt="php logo">
+                                                </div>
+                                                <div class="be-card-desc-title">
+                                                    Php
+                                                </div>
+                                            </div>
+                                            <div class="be-card-desc short-desc">
+                                                <div class="be-card-desc-icon">
+                                                    <img src="assets/images/icons/python.png" alt="python logo">
+                                                </div>
+                                                <div class="be-card-desc-title">
+                                                    Python
+                                                </div>
+                                            </div>
+                                            <div class="be-card-desc short-desc">
+                                                <div class="be-card-desc-icon">
+                                                    <img src="assets/images/icons/net.png" alt="net logo">
+                                                </div>
+                                                <div class="be-card-desc-title">
+                                                    .net
+                                                </div>
+                                            </div>
+                                            <div class="be-card-desc short-desc">
+                                                <div class="be-card-desc-icon">
+                                                    <img src="assets/images/icons/javascript.png"
+                                                         alt="javascript logo">
+                                                </div>
+                                                <div class="be-card-desc-title">
+                                                    Javascript
+                                                </div>
+                                            </div>
+                                            <div class="be-card-desc short-desc">
+                                                <div class="be-card-desc-icon">
+                                                    <img src="assets/images/icons/java.png" alt="java logo">
+                                                </div>
+                                                <div class="be-card-desc-title">
+                                                    Java
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="back-end-skills-card">
+                                        <h2 class="back-end-skills-card-heading">
+                                            DB
+                                        </h2>
+                                        <div class="back-end-skills-card-number">
+                                            02
+                                        </div>
+                                        <div class="be-card-desc">
+                                            <div class="back-end-skills-card-info">
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/mysql.png" alt="mysql logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        MySQL
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/postgresql.png"
+                                                             alt="postgresql logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        PostgresQL
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/mongodb.png"
+                                                             alt="mongodb logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Mongodb
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="back-end-skills-card">
+                                        <h2 class="back-end-skills-card-heading">
+                                            Server
+                                        </h2>
+                                        <div class="back-end-skills-card-number">
+                                            03
+                                        </div>
+                                        <div class="back-end-skills-card-desc">
+                                            <div class="back-end-skills-card-info">
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/ngnx.png" alt="ngnx logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Ngnx
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/apache.png" alt="apache logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Apache
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/iis.png" alt="iis logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        IIS
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="back-end-skills-card">
+                                        <h2 class="back-end-skills-card-heading">
+                                            Outher
+                                        </h2>
+                                        <div class="back-end-skills-card-number">
+                                            04
+                                        </div>
+                                        <div class="back-end-skills-card-desc">
+                                            <div class="back-end-skills-card-info">
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/docker.png" alt="docker logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Docker
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/redis.png" alt="redis logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Redis
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/memcached.png"
+                                                             alt="MemcacheDB logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        MemcacheDB
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="back-end-skills-card">
+                                        <h2 class="back-end-skills-card-heading">
+                                            VCS
+                                        </h2>
+                                        <div class="back-end-skills-card-number">
+                                            05
+                                        </div>
+                                        <div class="back-end-skills-card-desc">
+                                            <div class="back-end-skills-card-info be-end-align">
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/github.png" alt="github logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Github
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img class="styled-icon"
+                                                             src="assets/images/icons/gitlab.png"
+                                                             alt="gitlab logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Gitlab
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img class="styled-icon"
+                                                             src="assets/images/icons/bitbucket.png"
+                                                             alt="bitbucket logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Bitbucket
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="back-end-skills-card">
+                                        <h2 class="back-end-skills-card-heading" id="framework">
+                                            Framework
+                                        </h2>
+                                        <div class="back-end-skills-card-number">
+                                            06
+                                        </div>
+                                        <div class="back-end-skills-card-desc">
+                                            <div class="back-end-skills-card-info long-info">
+                                                <div class="be-card-desc long-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/solidity.png"
+                                                             alt="solidity logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Solidity
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc long-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/node.js.png"
+                                                             alt="node.js logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Node.js
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc long-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/yii2.png" alt="yii2 logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        YII2
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc long-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/larevel.png"
+                                                             alt="larevel logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Larevel
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc long-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/zend.png" alt="zend logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Zend
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc long-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/symphony-23.png"
+                                                             alt="symphony 2/3 logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Symphony 2/3
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc long-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/kohana.png" alt="kohana logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Kohana
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc long-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/django.png" alt="django logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Django
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc long-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/asp.net.png"
+                                                             alt="asp.net logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Asp.net MVC
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc long-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/codeigniter.png"
+                                                             alt="codeigniter logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        CODEIGNITER
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="back-end-skills-card">
+                                        <h2 class="back-end-skills-card-heading">
+                                            Method
+                                        </h2>
+                                        <div class="back-end-skills-card-number">
+                                            07
+                                        </div>
+                                        <div class="back-end-skills-card-desc">
+                                            <div class="back-end-skills-card-info">
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/agile.png" alt="agile logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Agile
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/scrum.png" alt="scrum logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Scrum
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/kanban.png" alt="kanban logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Kanban
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="back-end-skills-card">
+                                        <h2 class="back-end-skills-card-heading">
+                                            API
+                                        </h2>
+                                        <div class="back-end-skills-card-number">
+                                            08
+                                        </div>
+                                        <div class="back-end-skills-card-desc">
+                                            <div class="back-end-skills-card-info">
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/rest-api.png"
+                                                             alt="rest-api logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Rest API
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/graphql.png"
+                                                             alt="graph-ql logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        GraphQL
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="back-end-skills-card">
+                                        <h2 class="back-end-skills-card-heading app-heading">
+                                            App
+                                        </h2>
+                                        <div class="back-end-skills-card-number">
+                                            09
+                                        </div>
+                                        <div class="back-end-skills-card-desc">
+                                            <div class="back-end-skills-card-info">
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/android.png"
+                                                             alt="android logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Android
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/ios.png" alt="ios logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Ios
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/xamarin.png"
+                                                             alt="xamarin logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        Xamarin
+                                                    </div>
+                                                </div>
+                                                <div class="be-card-desc short-desc">
+                                                    <div class="be-card-desc-icon">
+                                                        <img src="assets/images/icons/hybrid.png"
+                                                             alt="hybrid mobile app logo">
+                                                    </div>
+                                                    <div class="be-card-desc-title">
+                                                        HYBRID MOBILE APPLICATION
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="working-page page" id="working-content">
+                    <div class="model">
+                        <h2 class="services-heading">Model</h2>
+                        <div class="services-nav model-nav">
+                            <div class="services-nav-item model-nav-item">
+                                <button class="btn-styled btn-active" id="outsource">Outsource</button>
+                            </div>
+                            <div class="services-nav-item model-nav-item">
+                                <button class="btn-styled" id="outstaff">Outstaff</button>
+                            </div>
+                        </div>
+                        <div class="outsource-model-desc services-desc default-desc">
+                            <p>At NDLAB, we offer an outsourcing model that involves delegating a portion or the
+                                entirety
+                                of your project to our expert team. This approach allows you to entrust us with specific
+                                tasks, entire projects, or distinct modules, leveraging our expertise to achieve your
+                                goals.</p>
+                            <p> Benefits of Outsourcing with NDLAB:</p>
+                            <ul>
+                                <li>Rapid task completion due to our efficient workflow.</li>
+                                <li>Reduction in product development costs.</li>
+                                <li>Collaboration with a cohesive team of seasoned developers.</li>
+                                <li>Flexible project management methodologies tailored to your needs.</li>
+                            </ul>
+                            <p>Ideal for:</p>
+                            <ul>
+                                <li>Startups seeking expert IT assistance.</li>
+                                <li>Product companies looking to augment their development capabilities.</li>
+                                <li>IT companies in need of specialized skills or additional manpower.</li>
+                            </ul>
+
+                        </div>
+                        <div class="outstaff-model-desc services-desc">
+                            <p>In our outstaffing model, NDLAB places our skilled personnel under your direction to meet
+                                specific challenges. These professionals remain part of our team but dedicate their
+                                full-time efforts to your project. You manage their daily tasks, while we ensure the
+                                quality and adherence to the agreed timelines.
+                            </p>
+                            <p> Benefits of Outstaffing with NDLAB:</p>
+                            <ul>
+                                <li>Immediate development support for your existing team.</li>
+                                <li>Ability to schedule and plan the developer's time effectively.</li>
+                                <li>Cost savings with flexible engagement terms, such as part-time or fixed-duration
+                                    involvement.
+                                </li>
+                            </ul>
+                            <p>Ideal for:
+                            <ul>
+                                <li>Production companies require additional IT expertise.</li>
+                                <li>Businesses with limited in-house IT staff or without a dedicated IT team.</li>
+                                <li>Medium to large IT companies need specialized personnel for specific projects or
+                                    timeframes.
+                                </li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <h2 class="services-heading">Product</h2>
+                        <div class="services-nav product-nav">
+                            <div class="services-nav-item product-nav-item">
+                                <button class="btn-styled btn-active" id="fixed">Fixed Price</button>
+                            </div>
+                            <div class="services-nav-item product-nav-item">
+                                <button class="btn-styled" id="tm">Time & Material</button>
+                            </div>
+                            <div class="services-nav-item product-nav-item">
+                                <button class="btn-styled" id="retainer">Retainer</button>
+                            </div>
+                            <div class="services-nav-item product-nav-item">
+                                <button class="btn-styled" id="hybrid">Hybrid model</button>
+                            </div>
+                        </div>
+                        <div class="fixed-product-desc services-desc default-desc">
+                            The Fixed Price model at NDLAB is ideal for projects with clearly defined requirements and
+                            timelines. We assess the total scope of work and offer a fixed cost for the entire project.
+                            This model provides complete predictability of expenses and deadlines, making it an
+                            excellent choice for projects with a limited budget or strict timelines.
+                        </div>
+                        <div class="tm-product-desc services-desc">
+                            At NDLAB, we offer a Time & Material payment model, perfectly suited for projects where
+                            requirements may change or are not fully defined from the start. This approach allows our
+                            clients to flexibly manage the development, making adjustments at any stage of the process.
+                            Payment is calculated based on the actual time and resources spent, ensuring transparency
+                            and flexibility in budget management.
+                        </div>
+                        <div class="retainer-product-desc services-desc">
+                            For long-term collaboration and ongoing support, NDLAB offers a retainer model. This means
+                            that clients pay a regular, predetermined fee for a certain volume of work or for the
+                            constant availability of our team. This model is perfect for companies that require
+                            continuous technical support, development, and maintenance.
+                        </div>
+                        <div class="hybrid-product-desc services-desc">
+                            NDLAB also offers a flexible hybrid model, combining elements of different payment models.
+                            For example, we can use a fixed price for certain stages of the project and switch to a Time
+                            & Material basis for other parts that require more flexibility. This model is ideal for
+                            projects that combine well-defined tasks with elements that need adaptability in
+                            development.
+                        </div>
+                    </div>
+                    <div class="methodology">
+                        <h2 class="services-heading">Methodology</h2>
+                        <div class="services-nav methodology-nav">
+                            <div class="services-nav-item methodology-nav-item">
+                                <button class="btn-styled btn-active" id="scrum">Scrum</button>
+                            </div>
+                            <div class="services-nav-item methodology-nav-item">
+                                <button class="btn-styled" id="kanban">Kanban</button>
+                            </div>
+                            <div class="services-nav-item methodology-nav-item">
+                                <button class="btn-styled" id="incremental">Incremental</button>
+                            </div>
+                            <div class="services-nav-item methodology-nav-item">
+                                <button class="btn-styled" id="waterfall">Waterfall</button>
+                            </div>
+                        </div>
+                        <div class="scrum-methodology-desc services-desc default-desc">
+                            Scrum, a subset of Agile, focuses on team collaboration and the timely delivery of software
+                            products. It involves roles like Scrum Master and Product Owner, and ceremonies such as
+                            daily stand-ups, sprint planning, and retrospectives. Scrum is ideal for projects requiring
+                            rapid iterations and adaptability to changing requirements.
+                        </div>
+                        <div class="kanban-methodology-desc services-desc">
+                            Kanban, another Agile framework used at NDLAB, emphasizes continuous delivery and workflow
+                            visualization. Using a Kanban board, we manage and track work in progress, ensuring
+                            efficiency and flexibility. This approach is perfect for projects that require ongoing
+                            maintenance or have less defined schedules.
+                        </div>
+                        <div class="incremental-methodology-desc services-desc">
+                            Our Incremental approach is ideal for phased product development, involving multiple launch
+                            phases and the gradual building of the final product. At NDLAB, we start by releasing a
+                            product with basic functionality and then progressively add new features. This methodology
+                            allows for flexibility in adding functionalities and adapting to feedback, culminating in a
+                            fully developed system.
+                        </div>
+                        <div class="waterfall-methodology-desc services-desc">
+                            NDLAB also utilizes the Waterfall methodology for projects with well-defined requirements
+                            and a clear scope. This methodology follows a sequential approach, where each phase of
+                            development must be completed before moving on to the next. It begins with requirement
+                            gathering, followed by design, development, and testing. Waterfall is known for its
+                            straightforward project management, fixed costs, and preset timelines. It is best suited for
+                            projects where the scope and requirements are fixed and unlikely to change.
+                        </div>
+                    </div>
+                </section>
+
+                <section class="experience-page page" id="experience-content">
+                    <h2 class="services-heading">
+                        WE HAVE EXPERIENCE
+                    </h2>
+                    <div class="experience-cards">
+                        <div class="experience-card">
+                            <div class="experience-image">
+                                <img src="assets/images/experience/1.png" alt="AI">
+                            </div>
+                            <div class="experience-info">
+                                <div class="experience-title">
+                                    Artificial Intelligence Solutions
+                                </div>
+                                <div class="experience-desc">
+                                    NDLAB is at the forefront of AI technology, developing solutions that enhance
+                                    business processes through intelligent automation and data analysis. Our AI
+                                    solutions range from machine learning algorithms to advanced data analytics, helping
+                                    businesses to make informed decisions, automate repetitive tasks, and provide
+                                    innovative services to their customers.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-card">
+                            <div class="experience-info left">
+                                <div class="experience-title">
+                                    Online Services Development
+                                </div>
+                                <div class="experience-desc">
+                                    In today's digital age, where over 70% of services worldwide are requested, paid
+                                    for, and coordinated online, NDLAB excels in creating systems that facilitate
+                                    customer engagement and streamline service delivery. We focus on developing
+                                    user-friendly, reliable, and efficient online services, keeping in mind the specific
+                                    characteristics of your target audience.
+                                </div>
+                            </div>
+                            <div class="experience-image">
+                                <img src="assets/images/experience/2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="experience-card">
+                            <div class="experience-image">
+                                <img src="assets/images/experience/3.png" alt="">
+                            </div>
+                            <div class="experience-info">
+                                <div class="experience-title">
+                                    Corporate solution
+                                </div>
+                                <div class="experience-desc">
+                                    NDLAB offers comprehensive web and software solutions for businesses of all sizes.
+                                    We are adept at handling tasks of varying complexity, from standard applications to
+                                    complex, custom-built software and web solutions. Our team provides the most
+                                    effective solutions to meet your unique business challenges.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-card">
+                            <div class="experience-info left">
+                                <div class="experience-title">
+                                    Advanced Analytical Systems
+                                </div>
+                                <div class="experience-desc">
+                                    Our expertise extends to developing multifaceted analytical systems for business
+                                    data analysis. Whether it’s for a specific timeframe, departmental activity,
+                                    financial performance, or work hours, NDLAB delivers sophisticated solutions
+                                    encompassing monitoring, automation, and reporting at every level of your
+                                    organization, ensuring real-time, accurate data is always at your fingertips.
+                                </div>
+                            </div>
+                            <div class="experience-image">
+                                <img src="assets/images/experience/4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="experience-card">
+                            <div class="experience-image">
+                                <img src="assets/images/experience/5.png" alt="">
+                            </div>
+                            <div class="experience-info">
+                                <div class="experience-title">
+                                    Software Development and Integration
+                                </div>
+                                <div class="experience-desc">
+                                    NDLAB specializes in creating custom software products for companies, manufacturing
+                                    units, and large enterprises. Our process encompasses analysis, development,
+                                    integration, and ongoing support, ensuring that our solutions are perfectly aligned
+                                    with your business needs.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-card">
+                            <div class="experience-info left">
+                                <div class="experience-title">
+                                    E-Commerce Solutions
+                                </div>
+                                <div class="experience-desc">
+                                    NDLAB excels in creating cutting-edge e-commerce platforms, tailored to the unique
+                                    needs of online retailers and businesses. Our solutions are designed to enhance the
+                                    shopping experience, streamline checkout processes, and integrate advanced
+                                    functionalities like inventory management, customer relationship management, and
+                                    analytics tools. By focusing on user experience and backend efficiency, we empower
+                                    businesses to thrive in the competitive digital marketplace.
+                                </div>
+                            </div>
+                            <div class="experience-image">
+                                <img src="assets/images/experience/6.png" alt="">
+                            </div>
+                        </div>
+                        <div class="experience-card">
+                            <div class="experience-image">
+                                <img src="assets/images/experience/7.png" alt="">
+                            </div>
+                            <div class="experience-info">
+                                <div class="experience-title">
+                                    Banking and Financial Solutions
+                                </div>
+                                <div class="experience-desc">
+                                    NDLAB provides innovative solutions for the finance and banking sector. As the
+                                    digital landscape in finance continuously evolves, we offer unique online banking
+                                    solutions, accounting systems, process automation, and Blockchain-based
+                                    developments, tailored to the specific needs of financial organizations.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-card">
+                            <div class="experience-info left">
+                                <div class="experience-title">
+                                    Industry-Specific Solutions
+                                </div>
+                                <div class="experience-desc">
+                                    Leveraging our extensive experience, NDLAB creates industry-specific solutions to
+                                    meet the unique challenges of different sectors. These solutions range from SaaS
+                                    products for market participants to various online services, systems, and other
+                                    custom solutions, designed to cater to national and global market needs.
+                                </div>
+                            </div>
+                            <div class="experience-image">
+                                <img src="assets/images/experience/8.png" alt="">
+                            </div>
+                        </div>
+                        <div class="experience-card">
+                            <div class="experience-image">
+                                <img src="assets/images/experience/9.png" alt="">
+                            </div>
+                            <div class="experience-info">
+                                <div class="experience-title">
+                                    Augmented Reality (AR) Solutions
+                                </div>
+                                <div class="experience-desc">
+                                    At NDLAB, we develop innovative Augmented Reality solutions that transform the way
+                                    businesses interact with their customers. Our AR solutions range from interactive
+                                    marketing experiences to practical applications in training and operations. We
+                                    specialize in creating immersive, engaging AR content that enhances real-world
+                                    environments, providing an interactive and memorable experience for end-users.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-card">
+                            <div class="experience-info left">
+                                <div class="experience-title">
+                                    Virtual Reality (VR) Solutions
+                                </div>
+                                <div class="experience-desc">
+                                    We are adept at crafting Virtual Reality experiences that offer immersive and
+                                    interactive environments for various applications. From training simulations to
+                                    virtual tours and gaming, our VR solutions are custom-built to provide highly
+                                    engaging and realistic experiences. We utilize the latest VR technologies to create
+                                    solutions that are not only technologically advanced but also intuitive and
+                                    user-friendly.
+                                </div>
+                            </div>
+                            <div class="experience-image">
+                                <img src="assets/images/experience/10.png" alt="">
+                            </div>
+                        </div>
+                        <div class="experience-card">
+                            <div class="experience-image">
+                                <img src="assets/images/experience/11.png" alt="">
+                            </div>
+                            <div class="experience-info">
+                                <div class="experience-title">
+                                    Blockchain Solutions at NDLAB
+                                </div>
+                                <div class="experience-desc">
+                                    Our team is skilled in developing decentralized applications using Blockchain
+                                    technology. We offer services including the development of smart contracts for
+                                    automated execution of contractual obligations, cryptocurrency services such as
+                                    wallet and exchange development, and rigorous security audits to ensure high safety
+                                    standards and DDoS attack resistance.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-primary">
+                <div class="logo">
+                    <a href="#">
+                        <img src="assets/images/logo-black.png" alt="logo">
+                    </a>
+                </div>
+                <div class="email-phone">
+                    <span>contact@ndlab.no</span>
+                    <span>+47 450 71 439</span>
+                </div>
+                <div class="footer-navigation">
+                    <div class="footer-nav-item">
+                        <a href="services.html">Services</a>
+                    </div>
+                    <div class="footer-nav-item">
+                        <a href="contacts.html">Contacts</a>
+                    </div>
+                    <div class="footer-nav-item">
+                        <a href="about.html">About us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-secondary">
+                <div class="footer-rights">
+                    <div class="footer-company-name">© 2024 NORDEVLAB AS All rights reserved</div>
+                    <div class="footer-company-number">Org.nr: 933 022 552</div>
+                </div>
+                <div class="footer-policy">
+                    <a href="policy.html" class="footer-terms">Privacy & Cookies</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<div class="cookie-banner">
+    <div class="cookie-banner-text">
+        By clicking "Accept Cookies", you agree to the storing of cookies on your device to enhance site navigation,
+        analyze site usage, and assist in our marketing efforts.
+    </div>
+    <div class="cookie-banner-actions">
+        <a href="policy.html" class="cookies-link">Read privacy & Cookies</a>
+        <button type="button" class="accept-btn">Accept All Cookies</button>
+    </div>
+</div>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="src/scripts/script.js"></script>
+</body>
+</html>

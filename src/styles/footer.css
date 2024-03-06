@@ -1,0 +1,81 @@
+.footer {
+    padding: 30px 0;
+    border-top: 1px solid black;
+
+}
+
+.footer-primary {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 0 100px 80px 75px;
+}
+
+.footer-secondary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+
+.footer-rights {
+    display: flex;
+}
+
+.footer-navigation, .footer-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-company-number, .footer-company-name  {
+    font-size: 14px;
+    color: rgba(108, 108, 123, 1);
+}
+
+.footer-company-number {
+    margin-left: 15px;
+}
+
+.email-phone span:first-child {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.email-phone {
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+
+.footer-terms {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    box-sizing: border-box;
+    transition: 0.1s;
+}
+
+.footer-terms:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+
+.footer-nav-item {
+    margin-right: 40px;
+    border-bottom: 1px solid transparent;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.footer-nav-item:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.footer-nav-item:last-child {
+    margin-right: 0;
+}
+
+.footer-nav-item a {
+    text-decoration: none;
+    color: black;
+}

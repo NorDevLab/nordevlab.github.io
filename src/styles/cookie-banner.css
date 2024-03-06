@@ -1,0 +1,44 @@
+@import "fonts.css";
+
+.cookie-banner {
+    background-color: rgba(255, 255, 255, 1);
+    border-top: 3px solid rgba(57, 65, 255, 1);
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+}
+
+.cookie-banner-text {
+    max-width: 830px;
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+}
+
+.cookies-link {
+    border: 2px solid rgba(57, 65, 255, 1);
+    background: transparent;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 1);
+    padding: 7px 14px;
+    cursor: pointer;
+    margin-right: 13px;
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+    width: 152px;
+    height: 32px;
+}
+
+.accept-btn {
+    background: rgba(57, 65, 255, 1);
+    width: 162px;
+    height: 34px;
+    padding: 7px 15px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+}

@@ -1,0 +1,309 @@
+@import "fonts.css";
+@import "footer.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: rgba(244, 246, 248, 1);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.burger {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.header {
+    padding: 45px 0 45px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.services {
+    padding: 45px 0;
+}
+
+h1 {
+    font-family: Gangster Grotesk, sans-serif;
+    font-size: 100px;
+    color: rgba(31, 31, 31, 1);
+    margin-bottom: 60px;
+}
+
+.services-navs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+    width: 380px;
+    height: 55px;
+    border-bottom: 3px solid rgba(168, 187, 240, 1);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: 3px solid rgba(0, 67, 250, 1);
+}
+
+.nav-item button {
+    font-family: Gangster Grotesk, sans-serif;
+    font-size: 28px;
+    border: none;
+    background: transparent;
+    text-transform: uppercase;
+}
+
+.services-heading {
+    font-family: Gangster Grotesk, sans-serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.services-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.model-nav {
+    justify-content: flex-start;
+}
+
+.product-nav, .methodology-nav {
+    flex-wrap: wrap;
+}
+
+.product-nav-item:last-child, .methodology-nav-item:last-child {
+    margin-top: 30px;
+}
+
+.model-nav-item {
+    margin-right: 30px;
+}
+
+.services-desc {
+    margin-bottom: 60px;
+    max-width: 817px;
+    font-size: 16px;
+    line-height: 22px;
+    display: none;
+}
+
+
+.btn-styled {
+    width: 375px;
+    height: 61px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+    background: rgba(255, 255, 255, 1);
+    font-family: Gangster Grotesk, sans-serif;
+    font-size: 28px;
+    color: rgba(0, 67, 250, 1);
+    border: none;
+    text-transform: uppercase;
+}
+
+.btn-active {
+    background: rgba(0, 67, 250, 1);
+    box-shadow: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.skills-desc {
+    margin-bottom: 15px;
+}
+
+.skills-heading {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.skills-desc span {
+    text-transform: uppercase;
+    margin-right: 60px;
+    color: rgba(46, 46, 46, 1);
+    font-size: 16px;
+}
+
+.default-desc {
+    display: block;
+}
+
+.back-end-skills-card, .fe-skills-card, .design-skills-card {
+    max-width: 1241px;
+    height: 261px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    background: transparent;
+    padding: 70px 0 40px 40px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.back-end-skills-card-info, .fe-skills-card-info, .design-skills-card-info {
+    display: flex;
+    align-items: baseline;
+}
+
+.be-end-align, .fe-align {
+    display: flex;
+    align-items: end;
+}
+
+.fe-skills-card {
+    margin-bottom: 45px;
+}
+
+.design-card-desc-icon, .fe-card-desc-icon {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.back-end-skills-card-heading, .fe-skills-heading, .design-skills-heading {
+    font-size: 24px;
+    line-height: 22px;
+    color: rgba(0, 67, 250, 1);
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+#framework {
+    margin-bottom: 20px;
+}
+
+.back-end-skills-card-number, .design-skills-card-number, .fe-skills-card-number {
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 22px;
+    -webkit-text-stroke: 1px rgba(0, 67, 250, 1);
+    color: transparent;
+    position: absolute;
+    top: 55px;
+    right: 20px;
+}
+
+.back-end-skills-card-desc {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.be-card-desc {
+    text-align: center;
+}
+
+.short-desc {
+    margin-right: 70px;
+}
+
+.app-heading {
+    margin-bottom: 0;
+}
+
+.be-card-desc-title, .fe-card-desc-title, .design-card-desc-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(46, 46, 46, 1);
+    text-align: center;
+    max-width: 105px;
+}
+
+.be-card-desc-icon img {
+    vertical-align: super;
+}
+
+.styled-icon {
+    vertical-align: middle!important;
+}
+
+.long-desc {
+    margin-right: 30px;
+}
+
+.long-desc:last-child {
+    margin-right: 0;
+}
+
+.long-info {
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.model, .products, .exp  {
+    padding-top: 115px;
+}
+
+.working-page, .experience-page {
+    display: none;
+}
+
+.experience-page h2 {
+    margin-top: 115px;
+}
+
+.experience-cards {
+    margin-top: 70px;
+}
+
+.experience-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 25px;
+    background-color: white;
+    gap: 30px; /* Adjust the gap between the columns */
+    align-items: center; /* Align items vertically */
+}
+
+.left {
+    margin-left: 30px;
+}
+
+.experience-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-image img {
+    width: 100%; /* Make the image responsive */
+    max-width: 100%; /* Ensures the image does not exceed its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.experience-title {
+    font-family: Gangster Grotesk, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgba(0, 67, 250, 1);
+    margin-bottom: 20px;
+}

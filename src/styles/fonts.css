@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Inter;
+    src: url("../../assets/fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Gangster Grotesk";
+    src: url("../../assets/fonts/GangsterGrotesk-Bold.otf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Gangster Grotesk";
+    src: url("../../assets/fonts/GangsterGrotesk-Regular.otf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../../assets/fonts/Inter-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../../assets/fonts/Inter-SemiBold.ttf");
+    font-weight: 600;
+}
+
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("../../assets/fonts/HelveticaNeueCyr-Roman.ttf");
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url("../../assets/fonts/HelveticaNeueCyr-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/fonts/Poppins-SemiBold.ttf");
+    font-weight: 600;
+}

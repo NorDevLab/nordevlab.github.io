@@ -1,0 +1,103 @@
+@import "fonts.css";
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 280px;
+    background: rgba(4, 23, 74, 1);
+    position: fixed; /* Changed from display: none to position: fixed */
+    left: -280px; /* Start hidden to the left */
+    transition: left 0.3s ease; /* Smooth transition for sliding in/out */
+    top: 0; /* Ensure it starts from the top */
+    bottom: 0; /* Stretch to the bottom */
+    overflow-y: auto; /* In case your sidebar is longer than the screen */
+}
+
+.close {
+    display: block;
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+    position: absolute;
+    top: 35px;
+    left: 215px;
+    cursor: pointer;
+}
+
+
+.navigation ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 20px;
+}
+
+.navigation-item a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    padding: 20px;
+}
+
+.navigation-item:first-child {
+    margin-top: 100px;
+}
+
+.navigation-item a span,
+.navigation-item button {
+    color: rgba(255, 255, 255, 1);
+    font-family: Gangster Grotesk, sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.dropdown-container a {
+    padding: 20px;
+    cursor: pointer;
+    font-family: Gangster Grotesk, sans-serif;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+}
+
+.dropdown-container {
+    display: none;
+    padding-left: 8px;
+}
+
+.dropdown-btn {
+    color: rgba(255, 255, 255, 1);
+    font-family: Gangster Grotesk, sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.dropdown-btn svg {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    transition: transform 0.3s ease; /* Ensure the icon rotates smoothly */
+}
+
+.sidebar.open {
+    left: 0; /* Slide in */
+}
+
+.content {
+    flex-grow: 1;
+    transition: margin-left 0.3s ease; /* Smooth transition for margin */
+}
+
+.content-shift {
+    transition: margin-left 0.3s ease; /* Smooth transition for margin */
+    margin-left: 280px; /* Same as the sidebar width */
+}
+
+
+/* Additional CSS for smooth dropdown opening */
+.dropdown-btn.open .dropdown-icon {
+    transform: rotate(-90deg); /* Rotate the icon for an open state */
+}
+

@@ -1,10 +1,16 @@
 {
-  "name": "nordevlabgithubio",
+  "name": "nordevlab",
   "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "parcel-bundler": "^1.6.1"
+  "description": "",
+  "main": "src/scripts/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "scripts": {},
-  "devDependencies": {}
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "jquery": "^3.7.1"
+  }
 }

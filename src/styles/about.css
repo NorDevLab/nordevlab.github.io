@@ -1,0 +1,195 @@
+@import "fonts.css";
+@import "footer.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+.content {
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.burger {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.header {
+    padding: 45px 0 120px 0;
+    background-image: url("../../assets/images/about-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.write-us {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.write-us-btn {
+    color: white;
+    border: 1px white solid !important;
+}
+
+.btn {
+    width: 178px;
+    padding: 13px 0;
+    border-radius: 40px;
+    border: 1px rgba(0, 0, 0, 1) solid;
+    background: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    font-family: Gangster Grotesk, sans-serif;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background: white;
+    color: rgba(0, 67, 250, 1);
+    border: 1px solid rgba(0, 67, 250, 1);
+}
+
+
+.header-text {
+    max-width: 395px;
+    margin-top: 45px;
+    margin-left: 100px;
+    color: white;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+}
+
+
+.company {
+    padding: 120px 0 60px 0;
+    background-image: url("../../assets/images/about-company-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    height: 610px;
+}
+
+.company-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.company-info h2 {
+    font-family: Gangster Grotesk, sans-serif;
+    font-size: 55px;
+    line-height: 64px;
+    text-transform: uppercase;
+    max-width: 395px;
+}
+
+h2 span {
+    color: rgba(0, 67, 250, 1);
+}
+
+.company-info-desc {
+    max-width: 605px;
+    margin-left: 50px;
+}
+
+.company-info-desc p {
+    color: rgba(46, 46, 46, 1);
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+
+.company-info-desc-action {
+    margin-top: 10px;
+}
+
+.contact-us-btn {
+    color: rgba(10, 10, 10, 1);
+}
+
+.founders {
+    padding: 60px 0 85px 0;
+}
+
+.founders h3 {
+    font-family: Gangster Grotesk, sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 50px;
+}
+
+.founders-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+}
+
+.founder-name {
+    font-family: Gangster Grotesk, sans-serif;
+    font-size: 32px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.founder-story {
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 20px;
+    max-width: 353px;
+}
+
+.contact {
+    padding: 85px 0 115px 0;
+}
+
+.contact-info {
+    display: flex;
+}
+
+
+.contact-heading {
+    margin-bottom: 40px;
+    font-family: Gangster Grotesk, sans-serif;
+    font-size: 88px;
+    text-transform: uppercase;
+}
+
+
+.contact-desc p {
+    margin-bottom: 20px;
+    max-width: 560px;
+}
+
+.contact-action {
+    position: relative;
+    top: 125px;
+    left: 80px;
+}
+
+
+

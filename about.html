@@ -1,165 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>About - nordevlab.github.io</title>
-    <meta property="og:title" content="About - nordevlab.github.io" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/styles/sidebar.css">
+    <link rel="stylesheet" href="src/styles/cookie-banner.css">
+    <link rel="stylesheet" href="src/styles/about.css">
 
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter;
-        font-size: 16px;
-      }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
-
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
-    />
-  </head>
-  <body>
-    <link rel="stylesheet" href="./style.css" />
-    <div>
-      <link href="./about.css" rel="stylesheet" />
-
-      <div class="about-container">
-        <div class="about-container1">
-          <header data-thq="thq-navbar" class="about-navbar-interactive">
-            <div data-thq="thq-navbar-nav" class="about-desktop-menu">
-              <nav class="about-links">
-                <span>About</span>
-                <span class="about-text01">Features</span>
-                <span class="about-text02">Pricing</span>
-                <span class="about-text03">Team</span>
-                <span class="about-text04">Blog</span>
-              </nav>
-              <div class="about-buttons">
-                <button class="about-login button">Login</button>
-                <button class="button">Register</button>
-              </div>
-            </div>
-            <div data-thq="thq-burger-menu" class="about-burger-menu">
-              <svg id="nb_icon_1" viewBox="0 0 1024 1024" class="about-icon">
-                <path
-                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                ></path>
-              </svg>
-            </div>
-            <div data-thq="thq-mobile-menu" class="about-mobile-menu">
-              <div class="about-nav">
-                <div class="about-top">
-                  <div data-thq="thq-close-menu" class="about-close-menu">
-                    <svg
-                      id="nb_icon_close"
-                      viewBox="0 0 1024 1024"
-                      class="about-icon02"
-                    >
-                      <path
-                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                      ></path>
+<div class="layout">
+    <aside class="sidebar" id="sidebar">
+        <div class="close">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+			c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+			c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+			L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+			c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+			c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+			c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+	</g>
+</g>
+</svg>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li class="navigation-item">
+                    <a href="services.html" class="dropdown-btn">Services
+                        <!--<svg class="dropdown-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                            &lt;!&ndash;!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.&ndash;&gt;
+                            <path fill="#ffffff"
+                                  d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"/>
+                        </svg>-->
+                    </a>
+                    <!--<div class="dropdown-container">
+                        <a href="services.html" class="sidebar-link" data-content="do-content">DO</a>
+                        <a href="services.html" class="sidebar-link" data-content="working-content">WORKING</a>
+                        <a href="services.html" class="sidebar-link" data-content="experience-content">EXPERIENCE</a>
+                    </div>-->
+                </li>
+                <li class="navigation-item">
+                    <a href="contacts.html">
+                        <span>Contacts</span>
+                    </a>
+                </li>
+                <li class="navigation-item">
+                    <a href="about.html">
+                        <span>About us</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <div class="content">
+        <header class="header">
+            <div class="menu">
+                <div class="burger" id="burger">
+                    <svg width="24" height="24" viewBox="0 0 21 12" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="1" x2="21" y2="1" stroke="white" stroke-width="2"/>
+                        <line y1="6" x2="21" y2="6" stroke="white" stroke-width="2"/>
+                        <line y1="11" x2="21" y2="11" stroke="white" stroke-width="2"/>
                     </svg>
-                  </div>
                 </div>
-                <nav class="about-links1">
-                  <a href="about.html" class="about-navlink">About</a>
-                  <span class="about-text05">Features</span>
-                  <span class="about-text06">Pricing</span>
-                  <span class="about-text07">Team</span>
-                  <span class="about-text08">Blog</span>
-                </nav>
-                <div class="about-buttons1"></div>
-              </div>
-              <div class="about-icon-group">
-                <svg viewBox="0 0 950.8571428571428 1024" class="about-icon04">
-                  <path
-                    d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
-                  ></path></svg
-                ><svg viewBox="0 0 877.7142857142857 1024" class="about-icon06">
-                  <path
-                    d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
-                  ></path></svg
-                ><svg viewBox="0 0 602.2582857142856 1024" class="about-icon08">
-                  <path
-                    d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
-                  ></path>
-                </svg>
-              </div>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/NORDEVLAB.png" alt="logo">
+                    </a>
+                </div>
             </div>
-            <a href="index.html" id="logo_text_1" class="about-text09">
-              NORDEVLAB
-            </a>
-          </header>
-          <span class="about-text10">write to us</span>
-          <span class="about-text11">
-            We hold the belief that the synergy of design and development must
-            not only embody aesthetic appeal but also demonstrate optimal
-            functionality. This conviction propels us to consistently pursue
-            excellence, meticulously attending to the minutest details in every
-            project we undertake.
-          </span>
-        </div>
-        <div class="about-container2">
-          <div class="about-container3">
-            <span class="about-text12">
-              <span>Little about our company</span>
-            </span>
-            <span class="about-text14"><span>NORDEVLAB</span></span>
-          </div>
-          <div class="about-container4">
-            <span class="about-text16">
-              Nordevlab specializes in crafting tailored web pages, mobile
-              applications, and software solutions, considering the unique needs
-              of each client. Our expertise spans traditional IT solutions as
-              well as cutting-edge technologies like Augmented Reality (AR),
-              Virtual Reality (VR), blockchain, Artificial Intelligence (AI),
-              and Machine Learning (ML). This diverse skill set allows us to
-              automate business processes and offer comprehensive solutions for
-              financial companies, staying ahead in the dynamic digital
-              landscape.
-            </span>
-            <span class="about-text17">
-              You will discover the works of Quebec, Canadian and international
-              artists. Audiovisual and robotic installations, photographs and
-              videos, these works that exist in physical space have been
-              specially adapted for diffusion in the 3D digital space of our
-              museum.
-            </span>
-            <span class="about-text18">
-              Our team, consisting of experienced developers, designers, and
-              managers, possesses the necessary competencies for successfully
-              implementing projects of any complexity. We prioritize innovation,
-              quality, and efficiency, with each team member contributing unique
-              skills to ensure our clients' success.
-            </span>
-          </div>
-        </div>
-        <span class="about-text19">CONTACT US</span>
-      </div>
+            <div class="write-us">
+                <a href="contacts.html" class="write-us-btn btn">
+                    <span>Write to us</span>
+                </a>
+            </div>
+            <div class="header-text">
+                <p>We hold the belief that the synergy of design and development must not only embody aesthetic appeal
+                    but
+                    also
+                    demonstrate optimal functionality. This conviction propels us to consistently pursue excellence,
+                    meticulously attending to the minutest details in every project we undertake. </p>
+            </div>
+        </header>
+
+        <section class="company">
+            <div class="container">
+                <div class="company-info">
+                    <h2>Little about our company <span>NORDEVLAB</span></h2>
+                    <div class="company-info-desc">
+                        <p>Nordevlab specializes in crafting tailored web pages, mobile applications, and software
+                            solutions,
+                            considering
+                            the unique needs of each client. Our expertise spans traditional IT solutions as well as
+                            cutting-edge
+                            technologies like Augmented Reality (AR), Virtual Reality (VR), blockchain, Artificial
+                            Intelligence
+                            (AI),
+                            and Machine Learning (ML). This diverse skill set allows us to automate business processes
+                            and offer
+                            comprehensive solutions for financial companies, staying ahead in the dynamic digital
+                            landscape.</p>
+                        <p>Our team, consisting of experienced developers, designers, and managers, possesses the
+                            necessary
+                            competencies for successfully implementing projects of any complexity. We prioritize
+                            innovation,
+                            quality, and efficiency, with each team member contributing unique skills to ensure our
+                            clients'
+                            success.</p>
+                        <p>You will discover the works of Quebec, Canadian and international artists. Audiovisual and
+                            robotic
+                            installations, photographs and videos, these works that exist in physical space have been
+                            specially
+                            adapted for diffusion in the 3D digital space of our museum.</p>
+                        <div class="company-info-desc-action">
+                            <a href="contacts.html" class="contact-us-btn btn">
+                                Contact us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="founders">
+            <div class="container">
+                <h3>Founders</h3>
+                <div class="founders-items">
+                    <div class="founder-item">
+                        <div class="founder-image">
+                            <img src="assets/images/founder1.png" alt="Person">
+                        </div>
+                        <div class="founder-name">
+                            <span>Jerome Bell</span>
+                        </div>
+                        <div class="founder-story">
+                            <p>We believe that design and development should not only look good but also function well.
+                                That's
+                                why
+                                we always strive for excellence and pay attention to the smallest details. Our goal is
+                                to create
+                                designs that not only meet but exceed your expectations.</p>
+                        </div>
+                    </div>
+                    <div class="founder-item">
+                        <div class="founder-image">
+                            <img src="assets/images/founder2.png" alt="Person">
+                        </div>
+                        <div class="founder-name">
+                            <span>Cameron Williamson</span>
+                        </div>
+                        <div class="founder-story">
+                            <p>We believe that design and development should not only look good but also function well.
+                                That's
+                                why
+                                we always strive for excellence and pay attention to the smallest details. Our goal is
+                                to create
+                                designs that not only meet but exceed your expectations.</p>
+                        </div>
+                    </div>
+                    <div class="founder-item">
+                        <div class="founder-image">
+                            <img src="assets/images/founder3.png" alt="Person">
+                        </div>
+                        <div class="founder-name">
+                            <span>Jane Cooper</span>
+                        </div>
+                        <div class="founder-story">
+                            <p>We believe that design and development should not only look good but also function well.
+                                That's
+                                why
+                                we always strive for excellence and pay attention to the smallest details. Our goal is
+                                to create
+                                designs that not only meet but exceed your expectations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <div class="contact-info">
+                    <div class="contact-desc">
+                        <h2 class="contact-heading">Contact us</h2>
+                        <p>We are always ready to discuss your ideas and proposals. If you are interested in receiving a
+                            quote
+                            for
+                            the development of your project or if you have any questions, feel free to get in touch with
+                            us. Our
+                            team of experts is prepared to provide detailed information and assist you in bringing your
+                            ideas to
+                            life.</p>
+                        <p>Leave your message or inquiry, and we will get back to you as soon as possible. Thank you for
+                            your
+                            interest in our services!</p>
+                    </div>
+                    <div class="contact-action">
+                        <a href="contacts.html" class="btn contact-btn">
+                            Write to us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-primary">
+                <div class="logo">
+                    <a href="#">
+                        <img src="assets/images/logo-black.png" alt="logo">
+                    </a>
+                </div>
+                <div class="email-phone">
+                    <span>contact@ndlab.no</span>
+                    <span>+47 450 71 439</span>
+                </div>
+                <div class="footer-navigation">
+                    <div class="footer-nav-item">
+                        <a href="services.html">Services</a>
+                    </div>
+                    <div class="footer-nav-item">
+                        <a href="contacts.html">Contacts</a>
+                    </div>
+                    <div class="footer-nav-item">
+                        <a href="about.html">About us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-secondary">
+                <div class="footer-rights">
+                    <div class="footer-company-name">© <span id="year">2024</span> NORDEVLAB AS All rights reserved</div>
+                    <div class="footer-company-number">Org.nr: 933 022 552</div>
+                </div>
+                <div class="footer-policy">
+                    <a href="policy.html" class="footer-terms">Privacy & Cookies</a>
+                </div>
+            </div>
+        </footer>
     </div>
-    <script
-      defer=""
-      src="./ndlb.js"
-    ></script>
-  </body>
+</div>
+
+<div class="cookie-banner">
+    <div class="cookie-banner-text">
+        By clicking "Accept Cookies", you agree to the storing of cookies on your device to enhance site navigation,
+        analyze site usage, and assist in our marketing efforts.
+    </div>
+    <div class="cookie-banner-actions">
+        <a href="policy.html" class="cookies-link">Read privacy & Cookies</a>
+        <button type="button" class="accept-btn">Accept All Cookies</button>
+    </div>
+</div>
+
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="src/scripts/script.js"></script>
+</body>
 </html>
